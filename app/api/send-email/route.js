@@ -16,8 +16,8 @@ export async function POST(request) {
     // Email to you (original functionality)
     const mailOptionsToYou = {
       from: process.env.EMAIL_USER,
-      to: 'haquedot@gmail.com',
-      subject: `Haque Dot | New message from ${name} (${email})`,
+      to: 'ailani.mikhil@gmail.com',
+      subject: `Mikhil Ailani | New message from ${name} (${email})`,
       text: message,
       html: `
         <h3>New Contact Form Submission</h3>
@@ -31,7 +31,7 @@ export async function POST(request) {
     const mailOptionsToUser = {
       from: process.env.EMAIL_USER,
       to: email,
-      subject: 'Thank you for contacting Haque.',
+      subject: 'Thank you for contacting Mikhil.',
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #333;">Thank you for reaching out!</h2>
@@ -44,7 +44,7 @@ export async function POST(request) {
           </div>
           
           <p>Best regards,<br>
-          <strong>Haque.</strong></p>
+          <strong>Mikhil.</strong></p>
           
           <hr style="border: none; border-top: 1px solid #eee; margin: 20px 0;">
           <p style="font-size: 12px; color: #888;">This is an automated confirmation email. Please do not reply to this email.</p>

@@ -41,7 +41,7 @@ export const skillsData = [
     { name: "Responsive Design", iconName: "MdDevices", color: "text-teal-500" },
     { name: "Routing", iconName: "MdAltRoute", color: "text-indigo-500" },
     { name: "Component Design", iconName: "MdViewModule", color: "text-purple-500" },
-    { name: "CRUD Operations", iconName: "FaDatabase", color: "text-green-600" },
+    { name: "CRUD", iconName: "FaDatabase", color: "text-green-600" },
   ],
 }
 
