@@ -1,15 +1,28 @@
 "use client"
-
 import { motion } from "framer-motion"
 import { skillsData } from "@/constants/skills"
-import { FaBootstrap, FaCss3, FaGitAlt, FaGithub, FaHtml5, FaJs, FaReact } from "react-icons/fa"
-import { SiMongodb, SiMysql } from "react-icons/si"
+// Font Awesome (fa)
+import {
+  FaJs,
+  FaReact,
+  FaHtml5,
+  FaCss3,
+  FaBootstrap,
+  FaNodeJs,
+  FaServer,
+  FaGitAlt,
+  FaGithub,
+  FaDatabase,
+} from "react-icons/fa"
 import { RiNextjsFill, RiTailwindCssFill } from "react-icons/ri"
+import { SiMongodb, SiMysql, SiExpress } from "react-icons/si"
 import { VscVscode } from "react-icons/vsc"
 import { IoLogoFigma, IoLogoVercel } from "react-icons/io5"
+import { MdDevices, MdAltRoute, MdViewModule } from "react-icons/md"
 import { containerVariants, itemVariants, hoverLift, float } from "@/lib/animations"
 
 const iconMap: Record<string, React.ReactNode> = {
+  // Frontend
   FaJs: <FaJs />,
   FaReact: <FaReact />,
   RiNextjsFill: <RiNextjsFill />,
@@ -17,13 +30,24 @@ const iconMap: Record<string, React.ReactNode> = {
   FaCss3: <FaCss3 />,
   FaBootstrap: <FaBootstrap />,
   RiTailwindCssFill: <RiTailwindCssFill />,
+
+  FaNodeJs: <FaNodeJs />,
+  SiExpress: <SiExpress />,
+  FaServer: <FaServer />,
+
   SiMongodb: <SiMongodb />,
   SiMysql: <SiMysql />,
+
   FaGitAlt: <FaGitAlt />,
   FaGithub: <FaGithub />,
   VscVscode: <VscVscode />,
   IoLogoFigma: <IoLogoFigma />,
   IoLogoVercel: <IoLogoVercel />,
+
+  MdDevices: <MdDevices />,
+  MdAltRoute: <MdAltRoute />,
+  MdViewModule: <MdViewModule />,
+  FaDatabase: <FaDatabase />,
 }
 
 const skillItemVariants = {
@@ -32,6 +56,7 @@ const skillItemVariants = {
 }
 
 export default function Skills() {
+  console.log(skillsData)
   const container = {
     hidden: { opacity: 0 },
     show: {
