@@ -154,7 +154,7 @@ export default function Contact() {
                   icon: Linkedin,
                   label: "LinkedIn",
                   href: contactData.linkedIn,
-                  value: "linkedin.com/in/haquedot",
+                  value: "linkedin.com/in/mikhilailani",
                   external: true
                 }
               ].map((item, idx) => (

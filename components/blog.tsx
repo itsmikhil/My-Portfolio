@@ -24,7 +24,7 @@ export default function Blog() {
   const featuredPosts = blogPosts.slice(0, 2);
 
   return (
-    <section id="blog" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30">
+    <section id="blog" className="py-20 px-4 sm:px-6 lg:px-8 bg-muted/30 hidden">
       <div className="max-w-5xl mx-auto">
         {/* Section Header */}
         <div className="mb-12">

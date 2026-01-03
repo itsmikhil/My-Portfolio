@@ -96,7 +96,7 @@ export default function Hero() {
                 download
               >
                 <motion.div {...hoverScale} {...tapScale}>
-                  <Button size="sm" className="text-xs sm:text-sm bg-red">
+                  <Button size="sm" className="text-xs sm:text-sm">
                     <Download className="mr-2 h-3 w-3 sm:h-4 sm:w-4" /> Resume
                   </Button>
                 </motion.div>

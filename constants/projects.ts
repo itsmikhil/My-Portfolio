@@ -16,7 +16,7 @@ export const projectsData = [
   },
   {
     logo: "/matchwize.svg",
-    title: "Animated Frontend Project",
+    title: "Animation-Driven Frontend Experience in React",
     description:
       "Lazarev is a React.js-based clone of the Lazarev Digital Product Design Agency website, focused on recreating the original site’s smooth animations, immersive scrolling experience, and modern UI interactions. The project emphasizes frontend craftsmanship, animation timing, and responsive layouts to deliver a high-end agency-style user experience using React.",
     image: "/lazarev.png",
@@ -29,4 +29,18 @@ export const projectsData = [
       "Fully responsive layout ensuring consistent animations and design across devices and screen sizes.",
     ],
   },
+  {
+    logo: "/matchwize.svg",
+    title: "Animated Frontend Project",
+    description:"The Sundown Studio Portfolio Website is a front-end clone created to enhance my skills in responsive design and interactive web development using HTML, CSS, JavaScript, Locomotive Scroll, and Swiper JS.",
+    image: "/sundown.png",
+    tags: ["HTML", "CSS", "JS", "GSAP"],
+    demoUrl: "https://sundown-studio-project.netlify.app/",
+    githubUrl: "https://github.com/itsmikhil/Sundown-Studio",
+    features: [
+      "Smooth scroll-based animations and transitions for an immersive, modern website experience.",
+      "Pixel-perfect, responsive UI inspired by the original Sundown Studio design.",
+      "Interactive sections and hover effects that enhance user engagement."
+    ],
+  }
 ];
