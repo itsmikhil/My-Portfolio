@@ -88,21 +88,23 @@ export default function Hero() {
             initial="hidden"
             animate="show"
           >
-            <motion.div custom={0} variants={buttonVariants}>
+            <motion.div custom={0} variants={buttonVariants} initial="hidden"
+  animate="visible">
               <Link
                 href={profile.resumePath}
                 target="_blank"
                 download
               >
                 <motion.div {...hoverScale} {...tapScale}>
-                  <Button size="sm" className="text-xs sm:text-sm">
+                  <Button size="sm" className="text-xs sm:text-sm bg-red">
                     <Download className="mr-2 h-3 w-3 sm:h-4 sm:w-4" /> Resume
                   </Button>
                 </motion.div>
               </Link>
             </motion.div>
             
-            <motion.div custom={1} variants={buttonVariants}>
+            <motion.div custom={1} variants={buttonVariants} initial="hidden"
+  animate="visible">
               <Link
                 href="https://github.com/itsmikhil"
                 target="_blank"
@@ -115,7 +117,8 @@ export default function Hero() {
               </Link>
             </motion.div>
             
-            <motion.div custom={2} variants={buttonVariants}>
+            <motion.div custom={2} variants={buttonVariants} initial="hidden"
+  animate="visible">
               <Link
                 href={`mailto:${profile.email}`}
                 target="_blank"
@@ -129,7 +132,8 @@ export default function Hero() {
             </motion.div>
 
             
-            <motion.div custom={4} variants={buttonVariants}>
+            <motion.div custom={4} variants={buttonVariants} initial="hidden"
+  animate="visible">
               <Link
                 href="https://www.linkedin.com/in/mikhilailani/"
                 target="_blank"
