@@ -107,7 +107,7 @@ export default function Header() {
               {...hoverScale}
             >
               <Link href="/" className="text-lg font-bold">
-                Haque<span className="text-4xl text-emerald-400">.</span>
+                Mikhil<span className="text-4xl text-emerald-400">.</span>
               </Link>
             </motion.div>
           </div>

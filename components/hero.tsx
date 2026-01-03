@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Github, Linkedin, Download, Mail, MapPin } from "lucide-react"
 import { FaNode } from "react-icons/fa"
-import { RiNextjsFill, RiReactjsFill, RiTailwindCssFill, RiTwitterXLine } from "react-icons/ri"
+import { RiNextjsFill, RiReactjsFill, RiNodejsLine, RiTwitterXLine } from "react-icons/ri"
 import { SiMongodb } from "react-icons/si"
 import Link from "next/link"
 import { profile } from "@/constants/profile"
@@ -104,7 +104,7 @@ export default function Hero() {
             
             <motion.div custom={1} variants={buttonVariants}>
               <Link
-                href="https://github.com/haquedot"
+                href="https://github.com/itsmikhil"
                 target="_blank"
               >
                 <motion.div {...hoverScale} {...tapScale}>
@@ -127,23 +127,11 @@ export default function Hero() {
                 </motion.div>
               </Link>
             </motion.div>
-            
-            <motion.div custom={3} variants={buttonVariants}>
-              <Link
-                href="https://x.com/haquedot"
-                target="_blank"
-              >
-                <motion.div {...hoverScale} {...tapScale}>
-                  <Button variant="outline" size="sm" className="text-xs sm:text-sm">
-                    <RiTwitterXLine className="h-3 w-3 sm:h-4 sm:w-4" />
-                  </Button>
-                </motion.div>
-              </Link>
-            </motion.div>
+
             
             <motion.div custom={4} variants={buttonVariants}>
               <Link
-                href="https://www.linkedin.com/in/haquedot/"
+                href="https://www.linkedin.com/in/mikhilailani/"
                 target="_blank"
               >
                 <motion.div {...hoverScale} {...tapScale}>
@@ -254,7 +242,7 @@ export default function Hero() {
                 }}
               >
                 <div className="text-4xl text-sky-500">
-                  <RiTailwindCssFill />
+                  <RiNodejsLine />
                 </div>
               </motion.div>
             </div>
@@ -288,7 +276,7 @@ export default function Hero() {
                 delay: 1
               }}
             >
-              Tailwind CSS
+              Node Js
             </motion.div>
 
             <motion.div

@@ -1,30 +1,25 @@
 export const profile = {
-  name: "Merajul Haque",
+  name: "Mikhil Ailani",
   title: "Software Engineer",
-  email: "haquedot@gmail.com",
-  phone: "+91 75024 61630",
-  location: "Hyderabad, India",
-  bio: "A goal-oriented software developer with experience in building web applications using modern technologies like React, Next.js, and more. Seeking to leverage my technical skills to deliver exceptional user experiences.",
+  email: "ailani.mikhil@gmail.com",
+  phone: "+91 88798 87818",
+  location: "Chennai, India",
+  bio: "A goal-oriented full-stack developer skilled in building modern, scalable web applications using the MERN stack. Experienced in creating clean UIs and efficient backend systems, with working knowledge of Next.js and a strong focus on performance and user experience.",
   resumePath: "/MerajResumeFR.pdf",
   socials: [
     {
       name: "GitHub",
-      url: "https://github.com/haquedot",
+      url: "https://github.com/itsmikhil",
       icon: "Github",
     },
     {
       name: "Email",
-      url: "mailto:haquedot@gmail.com",
+      url: "ailani.mikhil@gmail.com",
       icon: "Mail",
     },
     {
-      name: "Twitter",
-      url: "https://x.com/haquedot",
-      icon: "RiTwitterXLine",
-    },
-    {
       name: "LinkedIn",
-      url: "https://www.linkedin.com/in/haquedot/",
+      url: "https://www.linkedin.com/in/mikhilailani/",
       icon: "Linkedin",
     },
   ],

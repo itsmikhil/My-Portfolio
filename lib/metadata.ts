@@ -1,7 +1,7 @@
 import type { Metadata } from 'next/types'
 
 export const baseMetadata: Metadata = {
-  title: 'Merajul Haque | Full Stack Developer & Software Engineer | Portfolio',
+  title: 'Mikhil Ailani | Full Stack Developer & Software Engineer | Portfolio',
   description:
     'Full-stack developer portfolio showcasing expertise in React, Next.js, Node.js, and MongoDB. View my projects, experience, and technical skills.',
   keywords: [
@@ -14,56 +14,15 @@ export const baseMetadata: Metadata = {
     'portfolio',
     'hyderabad',
   ],
-  authors: [{ name: 'Merajul Haque', url: 'https://www.merajulhaque.com' }],
-  creator: 'Merajul Haque',
-  publisher: 'Merajul Haque',
+  authors: [{ name: 'Mikhil Ailani', url: '' }],
+  creator: 'Mikhil Ailani',
+  publisher: 'Mikhil Ailani',
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
   robots: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1',
-  openGraph: {
-    type: 'profile',
-    url: 'https://www.merajulhaque.com',
-    title: 'Merajul Haque | Full Stack Developer',
-    description: 'Explore my portfolio of innovative web applications and development projects',
-    images: [
-      {
-        url: 'https://www.merajulhaque.com/og-image.png',
-        width: 1200,
-        height: 630,
-        alt: 'Merajul Haque - Full Stack Developer Portfolio',
-        type: 'image/png',
-      },
-    ],
-    locale: 'en_US',
-    siteName: 'Merajul Haque Portfolio',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Merajul Haque | Full Stack Developer',
-    description: 'Check out my portfolio of innovative web applications',
-    images: ['https://www.merajulhaque.com/og-image.png'],
-    creator: '@haquedot',
-    site: '@haquedot',
-  },
-  alternates: {
-    canonical: 'https://www.merajulhaque.com',
-  },
-  verification: {
-    // INSTRUCTIONS FOR GOOGLE SEARCH CONSOLE VERIFICATION:
-    // 1. Go to: https://search.google.com/search-console
-    // 2. Click "Add property" and enter: https://www.merajulhaque.com
-    // 3. Choose "URL prefix" option
-    // 4. Select "Meta tag" verification method
-    // 5. Copy the content value from the meta tag below
-    // 6. Replace 'YOUR_GOOGLE_VERIFICATION_CODE' with your actual code
-    google: 'BgDrV9voTYqHHg-xobRTihhj-uUjmh-Fj_a_VN-XM9Y',
-    // Add other verification codes as needed:
-    // yandex: 'YOUR_YANDEX_VERIFICATION_CODE',
-    // other: { 'msvalidate.01': ['YOUR_BING_CODE'] },
-  },
 }
 
 export const pageMetadata = {

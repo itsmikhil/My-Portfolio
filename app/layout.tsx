@@ -4,7 +4,6 @@ import { Inter } from "next/font/google"
 import "./globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import Header from "@/components/header"
-import AdHeader from "@/components/ad-header"
 import { Suspense } from "react"
 import Loading from "@/components/loading"
 import { Analytics } from "@vercel/analytics/next"
@@ -19,8 +18,9 @@ export const viewport: Viewport = {
   maximumScale: 5,
 }
 
-export const metadata: Metadata = {
-  ...baseMetadata,
+export const metadata = {
+  title: "Mikhil Ailani | Full Stack Developer",
+  description: "Full Stack Developer Portfolio",
 }
 
 export default function RootLayout({
@@ -37,14 +37,6 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <AdHeader
-            title="🚀 MatchWise"
-            description="Optimize Your Resume with AI"
-            buttonText="View"
-            href="https://matchwize.com/"
-            isExternal={true}
-            dismissible={true}
-          />
           <Suspense fallback={<Loading />}>
             <Analytics/>
             <Header />
